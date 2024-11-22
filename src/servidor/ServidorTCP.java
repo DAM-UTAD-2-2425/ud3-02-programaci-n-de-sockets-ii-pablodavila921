@@ -102,6 +102,8 @@ public class ServidorTCP {
 	/**
 	 * Cierra el servidor
 	 */
+	
+	// Cierre del servidor y el cliente
 	public void finSesion () {
 		{
 	        try {
