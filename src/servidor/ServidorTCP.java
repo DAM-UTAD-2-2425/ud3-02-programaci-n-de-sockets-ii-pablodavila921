@@ -106,7 +106,6 @@ public class ServidorTCP {
 	// Cierre del servidor y el cliente
 	public void finSesion () {
 		{
-			
 	        try {
 				if (entrada != null) entrada.close();
 	            if (salida != null) salida.close();
